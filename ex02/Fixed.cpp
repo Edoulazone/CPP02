@@ -6,7 +6,7 @@
 /*   By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 16:25:03 by eschmitz          #+#    #+#             */
-/*   Updated: 2025/03/13 17:45:54 by eschmitz         ###   ########.fr       */
+/*   Updated: 2025/04/23 12:45:51 by eschmitz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ Fixed::Fixed(int const n) {
 
 Fixed::Fixed(float const n) {
 	// std::cout << "Float constructor called" << std::endl;
-	_fixValue = (int)(n * (1 << _fractBits));
+	_fixValue = roundf(n * (1 << _fractBits));
 }
 
 Fixed&	Fixed::operator=(Fixed const &copy) {

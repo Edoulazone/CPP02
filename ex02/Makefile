@@ -6,11 +6,11 @@
 #    By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/13 16:25:10 by eschmitz          #+#    #+#              #
-#    Updated: 2025/03/13 16:27:03 by eschmitz         ###   ########.fr        #
+#    Updated: 2025/04/23 12:43:38 by eschmitz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = a.out
+NAME = mega_relou
 
 CC = c++
 

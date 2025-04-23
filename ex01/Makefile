@@ -6,11 +6,11 @@
 #    By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/13 15:57:35 by eschmitz          #+#    #+#              #
-#    Updated: 2025/03/13 15:57:56 by eschmitz         ###   ########.fr        #
+#    Updated: 2025/04/23 12:43:19 by eschmitz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = a.out
+NAME = tres_relou
 
 CC = c++
 
